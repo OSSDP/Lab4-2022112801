@@ -72,16 +72,4 @@ public class L2022112801_7_Test {
         String result = solution.smallestStringWithSwaps(s, pairs);
         assertEquals("abc", result);
     }
-
-    /**
-     * 测试方法：testErrorDemo
-     */
-    @Test
-    public void testErrorDemo() {
-        Solution7 solution = new Solution7();
-        String s = "abc";
-        List<List<Integer>> pairs = Collections.emptyList();
-        String result = solution.smallestStringWithSwaps(s, pairs);
-        assertEquals("0", result);
-    }
 }
